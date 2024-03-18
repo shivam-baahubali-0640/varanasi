@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#left{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://i.ytimg.com/vi/oRMp4yMyAHA/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#overlay1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+#centre1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#centre1 h1{
+    color: aliceblue;
+    font-family: anurati;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+#centre1 p{
+    color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+#centre1 button{
+    background-color: transparent;
+    color: burlywood;
+    padding-top: 13px;
+    letter-spacing: 3px;
+    font-family: anurati;
+    font-size: 18px;
+    border: none;
+}
+#centre1 button:hover{
+    color: deeppink;
+    border-radius: 10px;
+}
+
+
+#right{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://www.followmyanchor.com/wp-content/uploads/2021/04/Varanasi-Cosa-Vedere-Ghat.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#overlay2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(228, 23, 23, 0.26);
+}
+#centre2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#centre2 h1{
+    color: aliceblue;
+    font-family: anurati;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+#centre2 p{
+    color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+#centre2 button{
+    background-color: transparent;
+    color: rgb(37, 1, 8);
+    padding-top: 10px;
+    letter-spacing: 3px;
+    font-family: anurati;
+    font-size: 18px;
+    border: none;
+}
+#centre2 button:hover{
+    color: fuchsia;
+    border-radius: 10px;
+}
